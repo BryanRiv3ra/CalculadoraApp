@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bg"
+    android:src="@drawable/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtTexto1"
+        android:layout_width="364dp"
+        android:layout_height="156dp"
+        android:text="SELECCIONAR FUNCIÓN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Botón Opción 2 -->
+
+
+    <Button
+        android:id="@+id/buttonOpcion1"
+        android:layout_width="123dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOpcion4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonOpcion2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56" />
+
+    <Button
+        android:id="@+id/buttonOpcion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 2"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@id/buttonOpcion3"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toEndOf="@+id/buttonOpcion1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonOpcion3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="250dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 3"
+        android:textColor="#141313"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/buttonOpcion2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonOpcion4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="105dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 4"
+        android:textColor="#101010"
+        app:layout_constraintEnd_toStartOf="@id/buttonOpcion5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonOpcion1" />
+
+    <Button
+        android:id="@+id/buttonOpcion5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="102dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 5"
+        android:textColor="#191818"
+        app:layout_constraintBottom_toTopOf="@+id/buttonOpcion7"
+        app:layout_constraintEnd_toStartOf="@+id/buttonOpcion6"
+        app:layout_constraintStart_toEndOf="@+id/buttonOpcion4"
+        app:layout_constraintTop_toBottomOf="@id/buttonOpcion2" />
+
+    <Button
+        android:id="@+id/buttonOpcion6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 6"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonOpcion5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOpcion3" />
+
+    <Button
+        android:id="@+id/buttonOpcion7"
+        android:layout_width="116dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="OPCIÓN 7"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOpcion5" />
+
+    <Button
+        android:id="@+id/buttonDuda"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="DUDA"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSalir1"
+        android:layout_width="117dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="SALIR"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSorpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="#E3E7D3"
+        android:text="SORPRESA"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOpcion7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
